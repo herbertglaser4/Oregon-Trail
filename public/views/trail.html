@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Trail</title>
+	
+		<link rel="stylesheet" href="../css/trail.css">
+	</head>
+	<body style="width:100%;">
+	
+	
+	
+	<div id="animal1" onclick="shoot()"></div>
+	<div id= "minigame" onclick="shootmiss()">
+	
+	<div id ="hunter"></div>
+	</div>
+	
+	
+	
+		<div id="animal2" onclick="shoot()"></div>
+		<div id= "minigame2">
+		<div id ="hunter2" onclick="shootmiss()"></div></div>
+		</div>
+	
+		<div id="animal3" onclick="shoot()"></div>
+		<div id= "minigame3">
+		<div id ="hunter3" onclick="shootmiss()"></div>
+		</div>
+		
+<div id="animal4" onclick="shoot()"></div>
+<div id="animal5" onclick="shoot()"></div>
+<div id="animal6" onclick="shoot()"></div>
+<div id="animal7" onclick="shoot()"></div>
+	
+	
+	<div class="hunterInstructions"><div id="hunterInstructions"><h1 style = "font-style:underline;">Hunting Instructions</h1><p>Click the animal to shoot it</p>
+	</div></div>
+	
+	
+	<div class ="game">
+	<div id="game">
+	<div class ="infobox">
+		<div id="infobox"></div>
+		</div>
+		<div class ="instructions">
+			<div id="instructions">
+			<h2>	Instructions</h2>
+	<p>	-The goal of the game is to travel to Oregon within 45 Days</p>
+	<p>	-You have to try to get there with as many people as you can</p>
+	<p>	-If your group health is poor or very poor there is a chance that someone may die</p>
+	<h3>	Controls</h3>
+	<p>	-Enter: Advances a day</p>
+	<p>	-Space: Change the pace</p>
+	<p>	-7: Pauses the music</p>
+	
+			
+			</div>
+		</div>
+		<div> 
+		<img id= "background" src="../images/cool.jpg" alt="Mountain View" style="width:1500px;height:700px;"/>
+		</div>
+		<div>
+		<img id= "wagon" src="../images/wagon.jpg" style="width:170px;height:100px; position: absolute;left: 1300px;bottom: 40px;">
+		</div>
+		</div></div>
+
+	<!-- Trigger/Open The Modal -->
+<!-- <button id="myBtn">Open Modal</button> -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <ol><p>Press the number to change the pace</p>
+	 <li>Steady</li>
+	  <li>Strenuous</li>
+	   <li>Grueling</li>
+	    <li>Resting</li>
+		<li>Go Hunting (You can only go hunting once!)</li>
+		</ol>
+  </div>
+
+</div>
+
+<div id="myModal2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+	<p>A member of your party has passed</p>
+	
+  </div>
+
+</div>
+<div id="myModal3" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+	<p>You have made it to Oregon!</p>
+	<p id = "score"> </p>
+	
+  </div>
+
+</div>
+
+<script src="../js/trail.js"></script>
+<script src="../js/global.js"></script>
+	</body>
+</html>
+

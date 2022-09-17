@@ -1,0 +1,9 @@
+div.gameContainer {
+				position: absolute;
+				left: 500px;
+				top: 250px;
+				background-color:white;
+				padding-left:3em;
+				padding-right:3em;
+				padding-bottom:2em;
+			}
